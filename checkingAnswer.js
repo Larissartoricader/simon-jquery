@@ -18,7 +18,7 @@ export function checkingAnswer(par1, par2, nrOfLevels) {
       $("body").removeClass("game-over");
     });
     setTimeout(() => {
-      $(document).one("keypress", () => {
+      $(document).one("keypress touchstart", () => {
         window.location.reload();
       });
     }, 1500);
