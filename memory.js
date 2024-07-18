@@ -7,7 +7,7 @@ export let userSequence = [];
 export let level = 0;
 export let clicksNeeded = 0;
 
-$(document).on("keypress", function () {
+$(document).on("keypress touchstart", function () {
   if (userSequence.length === 0) {
     nextLevel();
   }
