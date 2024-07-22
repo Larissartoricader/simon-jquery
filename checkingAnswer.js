@@ -6,7 +6,7 @@ export function checkingAnswer(par1, par2, nrOfLevels) {
     par1.length = 0;
     setTimeout(() => {
       nextLevel();
-    }, 5000);
+    }, 2000);
   } else {
     console.log("Game over");
     const wrongSound = new Audio(`./sounds/wrong.mp3`);
